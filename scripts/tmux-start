@@ -1,0 +1,16 @@
+#!/bin/sh
+
+SESSION=work
+
+tmux has-session -t $SESSION 2>/dev/null && exec tmux attach -t $SESSION
+
+tmux new-session -d -s $SESSION -n ''
+tmux new-window -t $SESSION:1 -n 工作
+tmux new-window -t $SESSION:2 -n 调试
+tmux new-window -t $SESSION:3 -n 线上
+tmux new-window -t $SESSION:4 -n 个人
+
+tmux split-window -h -t $SESSION:1.0 -l '50%'
+tmux split-window -v -t $SESSION:1.1 -l '50%'
+tmux select-window -t $SESSION:1
+tmux attach -t $SESSION
