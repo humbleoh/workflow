@@ -1,0 +1,8 @@
+#!/bin/bash
+
+DIR_CONFIG=${HOME}/.config/opencode
+CONFIG_IMPL=oh-my-opencode-kimi.json
+CONFIG=oh-my-opencode.json
+
+ln -sf ${DIR_CONFIG}/${CONFIG_IMPL} ${DIR_CONFIG}/${CONFIG}
+opencode .
