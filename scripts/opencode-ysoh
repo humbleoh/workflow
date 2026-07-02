@@ -1,0 +1,13 @@
+#!/bin/bash
+
+DIR_CONFIG=${HOME}/.config/opencode
+MODEL=${1}
+
+if [[ -n "$MODEL" ]]; then
+  CONFIG_IMPL=oh-my-opencode-${MODEL}.json
+  CONFIG=oh-my-opencode.json
+  ln -sf ${DIR_CONFIG}/${CONFIG_IMPL} ${DIR_CONFIG}/${CONFIG}
+fi
+
+opencode .
+
