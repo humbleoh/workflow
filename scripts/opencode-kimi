@@ -1,7 +1,11 @@
 #!/bin/bash
 
 DIR_CONFIG=${HOME}/.config/opencode
-CONFIG_IMPL=oh-my-opencode-kimi.json
+MODEL=${1}
+if [[ -n "$MODEL" ]]; then
+  MODEL="-$MODEL"
+fi
+CONFIG_IMPL=oh-my-opencode-kimi${MODEL}.json
 CONFIG=oh-my-opencode.json
 
 ln -sf ${DIR_CONFIG}/${CONFIG_IMPL} ${DIR_CONFIG}/${CONFIG}
