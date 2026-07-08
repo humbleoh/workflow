@@ -2,10 +2,11 @@
 
 DIR_CONFIG=${HOME}/.config/opencode
 MODEL=${1}
+MYOPENCODE=oh-my-openagent
 
 if [[ -n "$MODEL" ]]; then
-  CONFIG_IMPL=oh-my-opencode-${MODEL}.json
-  CONFIG=oh-my-opencode.json
+  CONFIG_IMPL=${MYOPENCODE}-${MODEL}.json
+  CONFIG=${MYOPENCODE}.json
   ln -sf ${DIR_CONFIG}/${CONFIG_IMPL} ${DIR_CONFIG}/${CONFIG}
 fi
 
