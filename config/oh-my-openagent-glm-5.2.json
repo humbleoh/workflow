@@ -36,6 +36,13 @@
     },
     "sisyphus-junior": {
       "model": "zai-coding-plan/glm-5.2"
+    },
+    "librarian": {
+      "model": "zai-coding-plan/glm-5.2"
+    },
+    "hephaestus": {
+      "model": "zai-coding-plan/glm-5.2",
+      "allow_non_gpt_model": true
     }
   },
   "categories": {

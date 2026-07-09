@@ -36,6 +36,13 @@
     },
     "sisyphus-junior": {
       "model": "kimi-for-coding/k2p7"
+    },
+    "librarian": {
+      "model": "kimi-for-coding/k2p7"
+    },
+    "hephaestus": {
+      "model": "kimi-for-coding/k2p7",
+      "allow_non_gpt_model": true
     }
   },
   "categories": {

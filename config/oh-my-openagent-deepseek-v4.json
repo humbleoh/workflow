@@ -36,6 +36,13 @@
     },
     "sisyphus-junior": {
       "model": "deepseek/deepseek-v4-pro"
+    },
+    "librarian": {
+      "model": "deepseek/deepseek-v4-pro"
+    },
+    "hephaestus": {
+      "model": "deepseek/deepseek-v4-pro",
+      "allow_non_gpt_model": true
     }
   },
   "categories": {
