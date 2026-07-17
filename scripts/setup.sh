@@ -22,6 +22,7 @@ for conf in $(ls $CONFDIR); do
 done
 
 echo "Update gitconfig"
+git config --global core.editor "vim"
 git config --global core.quotepath false
 git config --global diff.tool meld
 git config --global difftool.prompt false
@@ -33,6 +34,9 @@ egrep -rni "set -g mouse on" ~/.tmux.conf &>/dev/null || \
 
 OPENCODE_CONFIG=~/.config/opencode/opencode.jsonc
 SKILLS_PATH="${SKILLSDIR}/superpowers/skills/"
+
+echo "Update opencode global AGENTS.md"
+ln -sf ${SKILLSDIR}/AGENTS.md ~/.config/opencode/AGENTS.md
 
 echo "Update opencode skills path"
 if jq -e --arg p "$SKILLS_PATH" '(.skills.paths // []) | any(. == $p)' "$OPENCODE_CONFIG" > /dev/null 2>&1; then

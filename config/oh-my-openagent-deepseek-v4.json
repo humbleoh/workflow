@@ -17,7 +17,7 @@
       "model": "deepseek/deepseek-v4-pro"
     },
     "multimodal-looker": {
-      "model": "kimi-for-coding/k2p7"
+      "model": "kimi-for-coding/k2p6"
     },
     "prometheus": {
       "model": "deepseek/deepseek-v4-pro",
@@ -47,7 +47,7 @@
   },
   "categories": {
     "visual-engineering": {
-      "model": "kimi-for-coding/k2p7",
+      "model": "kimi-for-coding/k2p6",
       "fallback_models": [
         {
           "model": "kimi-for-coding/k2p6"
