@@ -2,12 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/oh-my-opencode.schema.json",
   "agents": {
     "sisyphus": {
-      "model": "zai-coding-plan/glm-5.3",
-      "fallback_models": [
-        {
-          "model": "zai-coding-plan/glm-5"
-        }
-      ]
+      "model": "zai-coding-plan/glm-5.3"
     },
     "oracle": {
       "model": "zai-coding-plan/glm-5.3",
