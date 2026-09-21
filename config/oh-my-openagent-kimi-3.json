@@ -2,78 +2,78 @@
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/oh-my-opencode.schema.json",
   "agents": {
     "sisyphus": {
-      "model": "kimi-for-coding/k3",
+      "model": "kimi-code-plan-global/k3",
       "fallback_models": [
         {
-          "model": "kimi-for-coding/k3"
+          "model": "kimi-code-plan-global/k3"
         }
       ]
     },
     "oracle": {
-      "model": "kimi-for-coding/k3",
+      "model": "kimi-code-plan-global/k3",
       "reasoningEffort": "max"
     },
     "explore": {
-      "model": "kimi-for-coding/k3"
+      "model": "kimi-code-plan-global/k3"
     },
     "multimodal-looker": {
-      "model": "kimi-for-coding/k3"
+      "model": "kimi-code-plan-global/k3"
     },
     "prometheus": {
-      "model": "kimi-for-coding/k3",
+      "model": "kimi-code-plan-global/k3",
       "reasoningEffort": "max"
     },
     "metis": {
-      "model": "kimi-for-coding/k3",
+      "model": "kimi-code-plan-global/k3",
       "reasoningEffort": "max"
     },
     "momus": {
-      "model": "kimi-for-coding/k3",
+      "model": "kimi-code-plan-global/k3",
       "reasoningEffort": "max"
     },
     "atlas": {
-      "model": "kimi-for-coding/k3"
+      "model": "kimi-code-plan-global/k3"
     },
     "sisyphus-junior": {
-      "model": "kimi-for-coding/k3"
+      "model": "kimi-code-plan-global/k3"
     },
     "librarian": {
-      "model": "kimi-for-coding/k3"
+      "model": "kimi-code-plan-global/k3"
     },
     "hephaestus": {
-      "model": "kimi-for-coding/k3",
+      "model": "kimi-code-plan-global/k3",
       "allow_non_gpt_model": true
     }
   },
   "categories": {
     "visual-engineering": {
-      "model": "kimi-for-coding/k3",
+      "model": "kimi-code-plan-global/k3",
       "fallback_models": [
         {
-          "model": "kimi-for-coding/k3"
+          "model": "kimi-code-plan-global/k3"
         }
       ]
     },
     "ultrabrain": {
-      "model": "kimi-for-coding/k3"
+      "model": "kimi-code-plan-global/k3"
     },
     "deep": {
-      "model": "kimi-for-coding/k3"
+      "model": "kimi-code-plan-global/k3"
     },
     "artistry": {
-      "model": "kimi-for-coding/k3"
+      "model": "kimi-code-plan-global/k3"
     },
     "quick": {
-      "model": "kimi-for-coding/k3"
+      "model": "kimi-code-plan-global/k3"
     },
     "unspecified-low": {
-      "model": "kimi-for-coding/k3"
+      "model": "kimi-code-plan-global/k3"
     },
     "unspecified-high": {
-      "model": "kimi-for-coding/k3"
+      "model": "kimi-code-plan-global/k3"
     },
     "writing": {
-      "model": "kimi-for-coding/k3"
+      "model": "zai-coding-plan/glm-5.3-flash"
     }
   }
 }
